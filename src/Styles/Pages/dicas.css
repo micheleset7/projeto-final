@@ -1,0 +1,32 @@
+h1{
+margin: 30px;
+}
+.h2{
+    border: none;
+    margin: 70px;
+    color: #4f2158;
+    font-size: 40px;
+}
+h4{
+color:  #4f2158;
+font-size: 20px;
+}
+.p_dicas{
+ color:  #4f2158;
+ margin: 20px;
+}
+.titulo{
+    background: url('https://cdn.statically.io/img/www.ocaenergia.com/wp-content/uploads/2016/07/6-dicas-nao-comuns-para-economizar-energia-em-casa-1200x480.jpg?quality=100&f=auto') no-repeat 100% center;
+    display: flex;   
+    background-size: 1263px;
+    width: 100%;
+    align-items: center;
+    height: 75vh;
+
+}
+.div_dicas{
+margin: 35px;
+}
+img{
+
+}

@@ -1,0 +1,35 @@
+.p_footer{
+margin-right: 10px;
+color: #fff;
+justify-content: center;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+.ul_footer{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 17px;
+}
+.li_footer{
+  margin: 20px;
+  justify-content: center;
+  color: #fff;
+  list-style: none;
+  /* align-items: center;
+  text-align: center; */
+}
+
+  
+.footer-{
+    height: 48px;
+    padding: 32px 24px;
+    background: linear-gradient(329.54deg, #3d3b3d 0%, #676568 100%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }

@@ -1,0 +1,71 @@
+#div_conteiner{
+    width: 100%;
+    margin: 44px auto;  
+    background: #FFFFFF;
+    border-radius: 20px;  
+    padding: 64px 80px;  
+    display: flex;
+    /* background: url('../Img/undraw_Calculator_0evy.svg')no-repeat 100% center; */
+  }
+  
+.h1_calculo{
+    color: #00C7C7;
+}
+
+.h4_calculo{
+    margin: 20px;
+    /* border: 2px solid blue; */
+    color: #00C7C7;
+}
+.h3_calculo{
+    color: #00C7C7; 
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    
+    background: cornsilk;
+}
+.div_input{
+
+    justify-content: center;
+}
+.p_resultado{
+    color: rgb(141, 138, 138);
+   
+}
+
+/* p{
+    color: rgb(199, 198, 198);
+    font-weight: 100;
+} */
+
+.div_card{
+    display: block;
+    width: 368px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 7px;
+    background: rgb(95, 87, 78);
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15); */
+}
+.input_calculo{
+    margin-top:20px;
+    width: 50%;
+    height: 25px;  
+    background: #F5F8FA;
+    border: 1px solid #96D2F0;
+    border-radius: 3px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+::placeholder{
+    text-align: center;
+}
+.img_calculo{
+
+}
