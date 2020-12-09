@@ -1,8 +1,15 @@
 .div_principal{
 
 }
+.h1_energia{
+    color: #fff; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 65px;
+}
 .titulo-energia{
-    background: url('https://sustentavel.com.br/wp-content/uploads/2019/10/Energia-sustent%C3%A1vel-2.jpg') no-repeat 100% center;
+    background: url('https://www.fusesc.com.br/wp-content/uploads/2017/11/como-economizar-energia-eletrica-1-1-1-1280x640.png') no-repeat 100% center;
     display: flex;   
     background-size: 1263px;
     width: 100%;
@@ -23,18 +30,21 @@ margin-top: 90;
 }
 .tipo_energia{
     border: 1px solid #b8b1b1;
-    background:#d3f8db;
+    background: #cbf8d2;
     border-radius: 7px;
-    margin-top: 30px;
+    margin-top: 10px;
+
 }
 .h3_energia{
 margin: 30px;
 color: #4f2158;
+font-size: 28px;
+text-align: center;
 }
 .img_energia{
-    width: 250px;
+    width: 500px;
     height: 250px;
-    border: 1px solid #ada6a6;   
+    border: 5px solid #19829c;   
     margin: 40px;
     border-radius: 7px;
 
@@ -42,6 +52,10 @@ color: #4f2158;
 .p_energia{
 margin: 40px;
 color: #4f2158;
+text-align: justify;
+/* margin-bottom: 10px; */
+
+
 }
 .div_conteudo{
 display: flex;

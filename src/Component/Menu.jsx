@@ -18,7 +18,7 @@ const Menu = () => {
                     <Link className="link" to="/energia">Energia Renovável</Link>
                 </li>
                 <li className='li_menu'>
-                    <Link className="link" to="/tecnologia">Tecnologia</Link>
+                    <Link className="link" to="/tecnologia">Tecnologia Sustentável</Link>
                 </li>
 
             </ul>

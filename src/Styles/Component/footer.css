@@ -5,19 +5,21 @@ justify-content: center;
 align-items: center;
 text-align: center;
 justify-content: center;
+font-size: 15px;
 }
 .ul_footer{
 display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-margin-bottom: 17px;
+margin-bottom: -8px;
 }
 .li_footer{
-  margin: 20px;
+  margin: 10px;
   justify-content: center;
   color: #fff;
   list-style: none;
+  font-size: 30px;
   /* align-items: center;
   text-align: center; */
 }

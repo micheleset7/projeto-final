@@ -8,11 +8,11 @@ const Dicas = () => {
         <div>
             <Menu />
             <div className='titulo'>
-                <h1>Uso Sustentável</h1>
+                <h1 className='h1_dicas'>Uso Sustentável</h1>
             </div>
             <div>
                 <div className='div_dicas'>
-                    <h2 className='h2'>Dicas de Econômia</h2>
+                    <h2 className='h2_dicas'>Dicas de Econômia</h2>
                     <p className='p_dicas'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, esse enim fuga explicabo amet dolor vitae. Corporis, ut! Impedit architecto eos quia facere vel et totam eum eveniet. Perspiciatis, assumenda?</p>
                     <h4>Ar-condicionado ou ventilador?</h4>
                     <p className='p_dicas'>
@@ -25,7 +25,7 @@ const Dicas = () => {
                         Limpe sempre os filtros, pois a sujeira força o aparelho a trabalhar mais.
 Vai sair do ambiente? Desligue todos os aparelhos elétricos, incluindo o ar-condicionado.</p>
 
-                    <h4>Banhos curtos e refrescantes</h4>
+                    <h4 className='h4_dicas'>Banhos curtos e refrescantes</h4>
                     <p className='p_dicas'>
                         Para reduzir o consumo, o ideal é tomar banhos curtos, de 10 minutos no máximo, pois o chuveiro elétrico é um dos aparelhos que mais demanda energia. E quanto mais frio, melhor – para espantar o calor e o aumento do consumo. O chuveiro na posição Verão, por exemplo, usa 30% menos energia que na posição Inverno. Veja outras dicas:
 
@@ -33,7 +33,7 @@ Vai sair do ambiente? Desligue todos os aparelhos elétricos, incluindo o ar-con
                         A resistência queimou? Troque! Fazer remendos, além de ser perigoso, desperdiça energia.
 Desligue a torneira enquanto se ensaboa. Assim você economiza energia elétrica e água.</p>
 
-                    <h4>Pense antes de abrir a geladeira</h4>
+                    <h4 className='h4_dicas'>Pense antes de abrir a geladeira</h4>
                     <p className='p_dicas'>
                         Sabe aquele hábito de abrir a geladeira para pegar um ar fresco e depois pensar no que vai pegar lá dentro? Para economizar, corte-o já! Cada vez que se abre a geladeira, o ar frio escapa e o motor trabalha mais para esfriá-la de novo. Abra a geladeira somente quando necessário e retire de uma só vez todos os alimentos que for usar. Veja outras dicas:
 
@@ -44,7 +44,7 @@ Desligue a torneira enquanto se ensaboa. Assim você economiza energia elétrica
                         Nunca utilize a parte traseira da geladeira para secar panos ou roupas.
 Degele e limpe a geladeira conforme as indicações do manual, pois o gelo acumulado faz o motor trabalhar mais.</p>
 
-                    <h4>Vai viajar? Desligue a chave geral</h4>
+                    <h4 className='h4_dicas'>Vai viajar? Desligue a chave geral</h4>
 
                     <p className='p_dicas'>
                         Em caso de férias ou de viagens prolongadas, o ideal é esvaziar a geladeira e desligar o fornecimento de energia elétrica na chave geral. Assim, você não gasta nem com as luzes dos aparelhos em standy by, como televisão, rádio e forno de micro-ondas. Veja outras dicas:
@@ -56,9 +56,7 @@ Degele e limpe a geladeira conforme as indicações do manual, pois o gelo acumu
 Ao usar o ferro, tente passar o máximo de roupas possível e utilize a temperatura indicada para cada tipo de tecido. Ele consome muita energia elétrica cada vez que é ligado.</p>
                 </div>
                 <img src="" alt="" />
-
                 <Calculo />
-
             </div>
             <Footer />
 

@@ -1,12 +1,17 @@
 .div_tech{
     
     background: url('https://elojr.com.br/wp-content/uploads/2019/04/Projeto-IMS-1030x541-1.jpg') no-repeat 100% center;
-    /* background: url('https://sustentavel.com.br/wp-content/uploads/2019/10/Energia-sustent%C3%A1vel-2.jpg') no-repeat 100% center; */
     display: flex;   
     background-size: 1263px;
     width: 100%;
     align-items: center;
     height: 75vh;
+}
+.h1_tech{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 65px;
 }
 .div_banner_tech{
     border: 1px solid #a5a0a0;

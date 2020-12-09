@@ -7,6 +7,18 @@ const Calculo = () => {
     const [hora, setHora] = useState('0')
     const [dia, setIDias] = useState('0')
     const [qtd, setQtd] = useState('0')
+    const [btn, setBtn]=useState('')
+
+ const limparBtn=()=>{
+     const botao=setBtn(hora)
+     if(botao != ''){
+         hora=''
+        //  dia='',
+        //  qtd=''
+        //  potencia=''
+
+     }
+ }
 
     return (
 
@@ -21,27 +33,35 @@ const Calculo = () => {
                     Faça o cálculo do consumo do seu aparelho elétrico!
             </h4>
                 <div className='div_input'>
-                    <input className='input_calculo'
+
+                <div className='div_nome'>
+                        <p className='p_nome'>Qtd de equipamentos </p> <input className='input_calculo'
                         type="number"
-                        placeholder="Qtd equipamentos"
                         onChange={e => setQtd(e.target.value)}
                     />
-                    <input className='input_calculo'
+                    </div>
+                    <div className='div_nome'>
+                    <p className='p_nome'>Potência em W </p><input className='input_calculo'
                         type="number"
-                        placeholder="Potência em (W)"
                         onChange={e => setPotencia(e.target.value)}
                     />
-                    <input className='input_calculo'
+                    </div>
+                <div className='div_nome'>
+                  <p className='p_nome'>Números de dias </p> <input className='input_calculo'
                         type="number"
-                        placeholder="Nº de dias"
                         onChange={e => setIDias(e.target.value)}
                     />
-                    <input className='input_calculo'
+                    </div>
+                    <div className='div_nome'>
+                        
+                   <p className='p_nome'>Números de horas</p> <input className='input_calculo'
                         type="number"
-                        placeholder="Nº de horas"
                         onChange={e => setHora(e.target.value)}
                     />
+                    </div>
                     <h3 className='h3_calculo'> Resultado:  <p className='p_resultado'>  {(parseInt(qtd) * parseInt(dia) * parseInt(hora) * parseInt(potencia) / 1000)} /Kwh</p></h3>
+               {/* <button onClick={limparBtn}>Limpar</button> */}
+
                 </div>
 
             </div>

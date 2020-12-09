@@ -17,13 +17,13 @@
 .p_home{
     font-weight: 100;
     color: #4f2158;
-       
+    text-align: justify;       
 }
 
 #conteiner_home{
     
   display: inline-block;
-  position: relative;
+  /* position: relative; */
 }
 .navegacao{
     display: flex;
@@ -55,26 +55,19 @@
     margin: 30px;
     padding: 20px;
     border: 1px solid #c9c9c9;
+    background: #cbf8d2;
     border-radius: 7px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.link_home{
+text-decoration: none;
+}
+.h3_home{
+    margin: 10px;
 }
 .card_img{
     border-radius: 7px 7px 0 0;
     margin-bottom: 20px;
-    max-width: 140px;
+    max-width: 175px;
     height: 160px;
-}
-
-ul{
-    margin-top:20px; 
-}
-li{
-    margin-top:10px;
-    color: #fff;
-}
-.footer{
-    display: flex;
-}
-.ul_footer{
-    display: flex;
 }
