@@ -5,6 +5,10 @@
     text-align: center;
     font-size: 80px;
 }
+.apresentação{
+    display: block;
+    margin: 70px;
+}
 .h2_home{
     color: #4f2158;
     margin-bottom: 70px;   
@@ -14,41 +18,46 @@
     justify-content: center;
     font-size: 40px;
 }
+.div_informe{
+    display: flex;
+    width:100%;     
+    align-items: center;
+  
+}
 .p_home{
     font-weight: 100;
     color: #4f2158;
     text-align: justify;       
 }
-
-#conteiner_home{
-    
-  display: inline-block;
-  /* position: relative; */
-}
-.navegacao{
+.div_iframe{
     display: flex;
+    border: 3px solid rgb(9, 68, 9);
+    margin-right: -50px;
+    height: 25vh;
+}
+
+#conteiner_home{    
+  display: inline-block;
 }
 .banner_home{
     display: flex;
-    background: url('https://cdn.pixabay.com/photo/2016/11/22/23/49/bright-1851267_960_720.jpg') no-repeat 100% center;
-    /* background-size: 1220px; */
+    background: url('https://cdn.pixabay.com/photo/2016/11/22/23/49/bright-1851267_960_720.jpg') no-repeat 100% center;   
     background-size: 1263px;
     width: 100%;
     align-items: center;
-    height: 75vh;
-    
-    }
+    height: 75vh;    
+ }
 
-.div_saudação{
-    display: block;
-    margin: 70px;
-}
 .informe{
     display: flex;
     text-align: center;
     justify-content: center;
     
 }
+.div_p_infor{
+    width: 70%;
+    margin-right: 50px;
+} 
 .div_pag{
     display: block;
     width: 248px;

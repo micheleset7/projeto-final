@@ -9,14 +9,11 @@
   }
   
 .h1_calculo{
-    /* color: #00C7C7; */
     color: #fff;
 }
 
 .h4_calculo{
     margin: 20px;
-    /* border: 2px solid blue; */
-    /* color: #00C7C7; */
     color: #fff;
 }
 .h3_calculo{
@@ -52,8 +49,6 @@
     border: 1px solid #c9c9c9;
     border-radius: 7px;
     background: rgb(67, 141, 86);
-    /* justify-content: center;
-    align-items: center; */
     text-align: center;
 }
 .input_calculo{
@@ -80,6 +75,6 @@ display: flex;
 ::placeholder{
     text-align: center;
 }
-.img_calculo{
+/* .img_calculo{
 
-}
+} */

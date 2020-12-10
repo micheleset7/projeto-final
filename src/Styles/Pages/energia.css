@@ -1,6 +1,6 @@
-.div_principal{
+/* .div_principal{
 
-}
+} */
 .h1_energia{
     color: #fff; 
     justify-content: center;
@@ -26,14 +26,12 @@ margin-top: 90;
     color: #4f2158;
     font-size: 40px;
     text-align: center;
-
 }
 .tipo_energia{
     border: 1px solid #b8b1b1;
     background: #cbf8d2;
     border-radius: 7px;
     margin-top: 10px;
-
 }
 .h3_energia{
 margin: 30px;
@@ -47,15 +45,11 @@ text-align: center;
     border: 5px solid #19829c;   
     margin: 40px;
     border-radius: 7px;
-
 }
 .p_energia{
 margin: 40px;
 color: #4f2158;
 text-align: justify;
-/* margin-bottom: 10px; */
-
-
 }
 .div_conteudo{
 display: flex;

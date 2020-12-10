@@ -4,21 +4,20 @@ import '../Styles/Component/menu.css'
 const Menu = () => {
 
     return (
-        <div className="menu_home">
-
+        <div className="menu">
             <ul className='ul_menu'>
-                
+
                 <li className='li_menu'>
-                    <Link className="link" to="/">Home</Link>
+                    <Link className="link" to="/"><strong>Home</strong></Link>
                 </li>
                 <li className='li_menu'>
-                    <Link className="link" to="/dicas">Uso Sustentável</Link>
+                    <Link className="link" to="/dicas"><strong>Uso Sustentável</strong></Link>
                 </li>
                 <li className='li_menu'>
-                    <Link className="link" to="/energia">Energia Renovável</Link>
+                    <Link className="link" to="/energia"><strong>Energia Renovável</strong></Link>
                 </li>
                 <li className='li_menu'>
-                    <Link className="link" to="/tecnologia">Tecnologia Sustentável</Link>
+                    <Link className="link" to="/tecnologia"><strong>TI Sustentável</strong></Link>
                 </li>
 
             </ul>

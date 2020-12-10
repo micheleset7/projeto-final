@@ -6,20 +6,29 @@ import Footer from '../Component/Footer'
 
 const Home = () => {
     return (
-          <div id='conteiner_home'>
-                <Menu/>
+        <div id='conteiner_home'>
 
+            <Menu />
             <div className='banner_home'>
                 <h1 className='h1_home' >Informe Sustentável</h1>
             </div>
-            <div className='apresentação'>
-                <div className='div_saudação'>
-                    <h2 className='h2_home'>Consumo Consciente de Energia Elétrica</h2>
-                    <p className='p_home'>A Sustentabilidade vem se tornando meta consensual, expressa formalmente em termos globais. São exemplos os Objetivos do Milênio e Objetivos de Desenvolvimento Sustentável, apontando para conquistas tecnológicas e mudanças comportamentais.O consumo consciente de energia elétrica é essencial para um desenvolvimento sustentável. É preciso, sempre que possível, reduzir o consumo de energia elétrica. ... Esse é apenas um dos diversos fatores ambientais e sociais pelos quais devemos adotar o consumo consciente de energia elétrica e acabar com o desperdício., bem como aos expressivos resultados no combate ao desperdício de energia.</p>
-                    <p className='p_home'>Utilize com eficiência a energia elétrica em sua casa e no seu trabalho. O desperdício sai caro para você e para o meio ambiente. Consumindo energia de forma consciente, você economiza na conta de luz e ainda ajuda na preservação das nossas reservas naturais. Adote algumas mudanças. Assim, você utiliza a energia elétrica de forma mais segura e econômica, sem abrir mão do seu conforto.</p>
-                </div>
 
-                {/* <img src="./" alt="" /> */}
+            <div className='apresentação'>
+
+                <h2 className='h2_home'>Consumo Consciente de Energia Elétrica</h2>
+
+                <div className='div_informe'>
+
+                    <div className='div_p_infor'>
+                        <p className='p_home'>A Sustentabilidade vem se tornando meta consensual, expressa formalmente em termos globais. São exemplos os Objetivos do Milênio e Objetivos de Desenvolvimento Sustentável, apontando para conquistas tecnológicas e mudanças comportamentais.O consumo consciente de energia elétrica é essencial para um desenvolvimento sustentável. É preciso, sempre que possível, reduzir o consumo de energia elétrica. Esse é apenas um dos diversos fatores ambientais e sociais pelos quais devemos adotar o consumo consciente  e acabar com o desperdício. Bem como aos expressivos resultados no combate ao desperdício de energia.</p>
+                        <p className='p_home'>A energia elétrica é de suma importância para o desenvolvimento econômico,social e a melhoria da qualidade de vida da população. Assim, seu uso além de reduzir o consumo e as contas a serem pagas pelos consumidores, torna menos necessária a ampliação do sistema energético e, consequentemente, não se aumentam os impactos ambientais nem o dispêndio de recursos financeiros.  Utilize com eficiência a energia elétrica em sua casa e no seu trabalho. O desperdício sai caro para você e para o meio ambiente. Consumindo energia de forma consciente, você economiza na conta de luz e ainda ajuda na preservação das nossas reservas naturais. Adote algumas mudanças. Assim, você utiliza a energia elétrica de forma mais segura e econômica, sem abrir mão do seu conforto.</p>
+                    </div>
+
+                    <div className='div_iframe'>
+                        <iframe src="https://www.youtube.com/embed/ZocGUFfbrYM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                </div>
             </div>
             <div className='informe'>
                 <div className='div_pag'>
@@ -35,14 +44,14 @@ const Home = () => {
                 </div>
 
                 <div className='div_pag'>
-                    <Link className='link_home' to='/tecnologia'><h3 className='h3_home'>TI Verde</h3>
+                    <Link className='link_home' to='/tecnologia'><h3 className='h3_home'>TI Sustentável</h3>
                         <img className='card_img' src="https://sites.google.com/site/tiverdeifsp/_/rsrc/1468862752515/home/News_693.jpg" alt="tecnologia" />
                         <p className='p_home'> Uma tendência mundial voltada para a redução do impacto dos recursos tecnológicos no meio ambiente. Saiba mais sobre essa tendência aqui.</p> </Link>
                 </div>
             </div>
             <Footer />
         </div>
-       
+
     )
 }
 export default Home

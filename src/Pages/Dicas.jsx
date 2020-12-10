@@ -13,53 +13,36 @@ const Dicas = () => {
             <div>
                 <div className='div_dicas'>
                     <h2 className='h2_dicas'>Dicas de Econômia</h2>
-                    <p className='p_dicas'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, esse enim fuga explicabo amet dolor vitae. Corporis, ut! Impedit architecto eos quia facere vel et totam eum eveniet. Perspiciatis, assumenda?</p>
-                    <h4>Ar-condicionado ou ventilador?</h4>
+                    <p className='p_dicas'>Reduzir o consumo de energia elétrica não contribui apenas para a preservação do meio ambiente, mas também para a redução de gastos e o controle das despesas em casa. É importante compreender que é papel de todos ajudar no combate ao desperdício de energia elétrica.  Quando mudamos algumas atitudes cotidianas em relação ao uso consciente, o consumo de energia reduz consideravelmente e ajudamos na preservação do meio ambiente, aumentando o tempo de vida dos recursos não-renováveis. Uma dica no geral é que quando for comprar qualquer tipo de eletrodomésticos, escolha sempre os que possuem o Selo Procel, ele indica aos consumidores que estes aparelhos consomem menos energia. A seguir veja algumas dicas de como economizar energia elétrica de forma sustentável, algumas atitudes já são bem conhecidas, mas é sempre bom reforçar.</p>
+
+                    <h4 className='h4_dicas'>Lâmpadas</h4>
+                    <p className='p_dicas'>Na iluminação artificial, as lâmpadas, o indicado é sempre optar pelas lâmpadas de led ou fluorescentes, além de uma iluminação muito mais eficaz, estes modelos geram um gasto muito menor quando comparadas as lâmpadas incandescentes. Evite deixe as luzes acessas sem necessidade, sendo assim, apague as luzes sempre que sair daquele local.</p>
+
+                    <h4 className='h4_dicas'>Ar-condicionado ou ventilador?</h4>
                     <p className='p_dicas'>
-                        Embora seja importante para o bem estar em muitos estados brasileiros, o ar-condicionado é o grande responsável pelo alto uso da energia elétrica nas residências e escritórios durante o verão. De acordo com o Centro Brasileiro de Informação de Eficiência Energética – Procel Info, o consumo médio de um ar-condicionado é, pelo menos, 10 vezes maior do que o de um ventilador de mesa ou de teto. Portanto, se a intenção é economizar no consumo de energia, prefira o ventilador sempre que possível.
+                        Importante para o bem estar em muitos estados brasileiros, o ar-condicionado é o grande responsável pelo alto uso da energia elétrica nas residências e escritórios durante o verão. O consumo médio de um ar-condicionado é, pelo menos, 10 vezes maior do que o de um ventilador de mesa ou de teto. Se a intenção é economizar no consumo de energia, prefira o ventilador sempre que possível. Agora se optar pelo ar condicionado, então, sempre desligue o aparelho quando o ambiente não estiver ocupado. Quando estiver ligado, é primordial manter todas as janelas e portas fechadas para evitar a troca de temperatura. Limpe sempre os filtros, pois a sujeira força o aparelho a trabalhar mais. Nunca obstrua a saída de ar do aparelho e proteja a sua parte externa da incidência do sol. É importante observar as grades de ventilação, elas nunca devem estar bloqueadas. Vai sair do ambiente?  Desligue todos os aparelhos elétricos, incluindo o ar-condicionado.
+                    </p>
 
-                        Nas cidades em que a madrugada e o início da manhã são mais frescos, aproveite para desligar o ar-condicionado nesses horários e abrir as janelas. Se o mosquito for um problema, avalie bloquear a entrada deles com recursos como a tela mosquiteira. Alguns outros cuidados com relação à climatização:
-
-                        Instale o ar-condicionado em local com boa circulação de ar.
-                        Com o ar-condicionado ligado, feche portas e janelas para evitar a entrada do ar quente.
-                        Limpe sempre os filtros, pois a sujeira força o aparelho a trabalhar mais.
-Vai sair do ambiente? Desligue todos os aparelhos elétricos, incluindo o ar-condicionado.</p>
-
-                    <h4 className='h4_dicas'>Banhos curtos e refrescantes</h4>
+                    <h4 className='h4_dicas'>Chuveiro elétrico</h4>
                     <p className='p_dicas'>
-                        Para reduzir o consumo, o ideal é tomar banhos curtos, de 10 minutos no máximo, pois o chuveiro elétrico é um dos aparelhos que mais demanda energia. E quanto mais frio, melhor – para espantar o calor e o aumento do consumo. O chuveiro na posição Verão, por exemplo, usa 30% menos energia que na posição Inverno. Veja outras dicas:
+                        Para reduzir o consumo, o ideal é tomar banhos curtos, de 10 minutos no máximo, pois o chuveiro elétrico é um dos aparelhos que mais demanda energia. Ter atenção a do aparelho,  instalação correta não serve apenas para prevenir acidentes, que é muito importante, mas também para favorecer o gasto ideal. Sempre que possível, tome banhos com o chuveiro na posição verão ou até mesmo completamente desligado.  Jamais reaproveite uma resistência queimada, porque além de aumentar o consumo de energia, esta situação pode colocar em risco a segurança de quem usa este equipamento.</p>
 
-                        Limpe os buracos por onde a água sai, para aumentar a vazão.
-                        A resistência queimou? Troque! Fazer remendos, além de ser perigoso, desperdiça energia.
-Desligue a torneira enquanto se ensaboa. Assim você economiza energia elétrica e água.</p>
-
-                    <h4 className='h4_dicas'>Pense antes de abrir a geladeira</h4>
+                    <h4 className='h4_dicas'>Geladeira</h4>
                     <p className='p_dicas'>
-                        Sabe aquele hábito de abrir a geladeira para pegar um ar fresco e depois pensar no que vai pegar lá dentro? Para economizar, corte-o já! Cada vez que se abre a geladeira, o ar frio escapa e o motor trabalha mais para esfriá-la de novo. Abra a geladeira somente quando necessário e retire de uma só vez todos os alimentos que for usar. Veja outras dicas:
+                        O hábito de abrir a geladeira e pensar no que vai pegar lá dentro, gera grande desperdício de energia. Para economizar, corte-o ! Cada vez que se abre a geladeira, o ar frio escapa e o motor trabalha mais para esfriá-la de novo. Abra a geladeira somente quando necessário e retire de uma só vez todos os alimentos que for usar. Mantenha em boas condições a borracha de vedação da porta da geladeira. Faça o teste do papel: prenda uma folha na porta. Se ela sair com facilidade, ao ser puxada, é sinal de que a borracha precisa ser trocada. Não guarde alimentos quentes na geladeira. Não forre as prateleiras da geladeira, instale a geladeira em local bem ventilado, longe de paredes, de raios solares e de fontes de calor, como fogões e estufas. Nunca utilize a parte traseira da geladeira para secar panos ou roupas. Degele e limpe a geladeira conforme as indicações do manual, pois o gelo acumulado faz o motor trabalhar mais.</p>
 
-                        Mantenha em boas condições a borracha de vedação da porta da geladeira. Faça o teste do papel: prenda uma folha na porta. Se ela sair com facilidade, ao ser puxada, é sinal de que a borracha precisa ser trocada.
-                        Não guarde alimentos quentes na geladeira.
-                        Não forre as prateleiras da geladeira nem ponha prateleiras de vidro, de plástico ou de outros materiais. Isso consome mais energia elétrica.
-                        Instale a geladeira em local bem ventilado, longe de paredes, de raios solares e de fontes de calor, como fogões e estufas.
-                        Nunca utilize a parte traseira da geladeira para secar panos ou roupas.
-Degele e limpe a geladeira conforme as indicações do manual, pois o gelo acumulado faz o motor trabalhar mais.</p>
-
-                    <h4 className='h4_dicas'>Vai viajar? Desligue a chave geral</h4>
+                    <h4 className='h4_dicas'>Máquina de lavar</h4>
 
                     <p className='p_dicas'>
-                        Em caso de férias ou de viagens prolongadas, o ideal é esvaziar a geladeira e desligar o fornecimento de energia elétrica na chave geral. Assim, você não gasta nem com as luzes dos aparelhos em standy by, como televisão, rádio e forno de micro-ondas. Veja outras dicas:
+                        Separe o dia para lavar roupa e utilize o máximo de roupas indicado pelo fabricante de uma só vez. As pessoas que lavam roupas em pequenas porções e várias vezes por semana certamente tem um gasto muito maior. Outra dica é limpar periodicamente o filtro da máquina e sempre que possível, aproveitar os dias ensolarados para secar as roupas naturalmente, as secadoras de roupa aumentam muito o consumo de energia</p>
+                    <h4 className='h4_dicas'>Ferro de passar roupa</h4>
 
-                        Aposente as extensões e benjamins! Ligar vários aparelhos elétricos na mesma tomada é perigoso e desperdiça energia.
-                        Evite usar aparelhos elétricos no horário de pico de consumo, ou seja, no início da noite, de segunda a sexta-feira. Durante o verão, o início da tarde é outro momento de pico devido ao calor e ao uso do ar-condicionado.
-                        Durante o dia, prefira iluminar sua casa apenas com luz natural. Fazendo isso, você usa menos energia elétrica e economiza na conta.
-                        Ao usar a lavadora de roupas, aproveite para lavar o máximo de peças possível e coloque somente a quantidade de sabão recomendada no manual, para não enxaguar mais vezes.
-Ao usar o ferro, tente passar o máximo de roupas possível e utilize a temperatura indicada para cada tipo de tecido. Ele consome muita energia elétrica cada vez que é ligado.</p>
+                    <p className='p_dicas'>Separe um dia para passar roupa, porque ligar o ferro de passar várias vezes por semana também servirá para aumentar o consumo elétrico. Caso seja necessário interromper o trabalho, mesmo que por pouco tempo, o mais indicado é desligá-lo completamente. Uma boa é proveite a temperatura elevada do ferro mesmo após desligar para passar as roupas mais leves, como por exemplo as lingeries.</p>
+
                 </div>
-                <img src="" alt="" />
                 <Calculo />
             </div>
             <Footer />
-
         </div>
     )
 }

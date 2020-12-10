@@ -14,24 +14,42 @@
     font-size: 65px;
 }
 .div_banner_tech{
-    border: 1px solid #a5a0a0;
-    background: #dee2de;
-    margin: 90px;
-    border-radius: 7px;
+    margin-top: 90px;
+    display: flex;
+    border-radius: 7px;  
+    width: 100%;   
 }
-
 .conteudo_tech{
-
+width: 100%;
 }
 .h2_tech{
 margin: 40px;
 text-align: center;
-color: rgb(41, 170, 187);
+color: rgb(81, 23, 114);
 }
 .p_tech{
-margin: 20px;
-color: rgb(124, 98, 64);
+margin: 35px;
+color: rgb(81, 23, 114);
+width: 100%;
+text-align: justify;
 }
-.img_tech{
-
+.div_img{
+display: block;
+width: 100%;
+}
+.img{
+    background: url('../../Img/undraw_file_sync_ot38.svg') no-repeat ;
+    background-size: 400px;
+     width: 80%;
+    height: 250px;
+    margin-top: 180px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.iframe_tech{
+    width: 450px;
+    height: 250px;
+     margin-top: 150px;
+    margin-left: 100px; 
+    border: 3px solid #0d6414;
 }
