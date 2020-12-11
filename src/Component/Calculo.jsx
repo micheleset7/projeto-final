@@ -32,35 +32,40 @@ const Calculo = () => {
                 <h4 className='h4_calculo'>
                     Faça o cálculo do consumo do seu aparelho elétrico!
             </h4>
-                <div className='div_input'>
+                <form className='form'>
 
-                    <div className='div_nome'>
-                        <p className='p_nome'>Qtd de equipamentos </p> <input className='input_calculo'
+                    <label className='nome'>
+                       <p className='p_nome'> Qtd de equipamentos:</p>
+                         <input className='input_calculo'
                             type="number"
                             onChange={e => setQtd(e.target.value)}
                         />
-                    </div>
-                    <div className='div_nome'>
-                        <p className='p_nome'>Potência em W </p><input className='input_calculo'
+                    </label>
+                    <label className='nome'>
+                        <p className='p_nome'>Potência em W: </p>
+                        <input className='input_calculo'
                             type="number"
                             onChange={e => setPotencia(e.target.value)}
                         />
-                    </div>
-                    <div className='div_nome'>
-                        <p className='p_nome'>Números de dias </p> <input className='input_calculo'
+                    </label>
+                    <label className='nome'>
+                        <p className='p_nome'>Números de dia/mês: </p>
+                        <input className='input_calculo'
                             type="number"
                             onChange={e => setIDias(e.target.value)}
                         />
-                    </div>
-                    <div className='div_nome'>
-
-                        <p className='p_nome'>Números de horas</p> <input className='input_calculo'
+                    </label>
+                    <label className='nome'>
+                        <p className='p_nome'>Números de hora/dia: </p>
+                        <input className='input_calculo'
                             type="number"
                             onChange={e => setHora(e.target.value)}
                         />
-                    </div>
-                    <h3 className='h3_calculo'> Resultado:  <p className='p_resultado'>  {(parseInt(qtd) * parseInt(dia) * parseInt(hora) * parseInt(potencia) / 1000)} /Kwh</p></h3>
-                </div>
+                    </label>
+                    <div className='div_resultado'>
+                         <h3 className='h3_calculo'> Resultado:  <p className='p_resultado'>  {(parseInt(qtd) * parseInt(dia) * parseInt(hora) * parseInt(potencia) / 1000)} KWh/mês</p></h3></div>
+                    
+                </form>
 
             </div>
         </div>
