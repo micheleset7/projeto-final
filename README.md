@@ -1,30 +1,10 @@
-# Meu projeto Final / Reprograma
-## Learn More
+# Informe Sustentável
 
-You can learn more in the [Linkedin](https://www.linkedin.com/in/michele-coelho-5017aa79/).
+O Informe sustentável, foi criado como meu projeto livre para apresentação final do curso Front End da Reprograma.
+O projeto foi desenvolvido em React, contendo uma home e mais três páginas. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Me acompanhe no [Linkedin](https://www.linkedin.com/in/michele-coelho-5017aa79/).
+Me acompanhe no [Instagram](https://www.instagram.com/michellecoelho7/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
