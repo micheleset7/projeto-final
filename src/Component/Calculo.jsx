@@ -7,18 +7,6 @@ const Calculo = () => {
     const [hora, setHora] = useState('0')
     const [dia, setIDias] = useState('0')
     const [qtd, setQtd] = useState('0')
-    // const [btn, setBtn] = useState('')
-
-    // // const limparBtn = () => {
-    // //     const botao = setBtn(hora)
-    // //     if (botao != '') {
-    // //         hora = ''
-    // //         //  dia='',
-    // //         //  qtd=''
-    // //         //  potencia=''
-
-    // //     }
-    // // }
 
     return (
 
@@ -35,8 +23,8 @@ const Calculo = () => {
                 <form className='form'>
 
                     <label className='nome'>
-                       <p className='p_nome'> Qtd de equipamentos:</p>
-                         <input className='input_calculo'
+                        <p className='p_nome'> Qtd de equipamentos:</p>
+                        <input className='input_calculo'
                             type="number"
                             onChange={e => setQtd(e.target.value)}
                         />
@@ -63,8 +51,8 @@ const Calculo = () => {
                         />
                     </label>
                     <div className='div_resultado'>
-                         <h3 className='h3_calculo'> Resultado:  <p className='p_resultado'>  {(parseInt(qtd) * parseInt(dia) * parseInt(hora) * parseInt(potencia) / 1000)} KWh/mês</p></h3></div>
-                    
+                        <h3 className='h3_calculo'> Resultado:  <p className='p_resultado'>  {(parseInt(qtd) * parseInt(dia) * parseInt(hora) * parseInt(potencia) / 1000)} KWh/mês</p></h3></div>
+
                 </form>
 
             </div>

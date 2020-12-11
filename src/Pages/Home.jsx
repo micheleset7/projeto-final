@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
 
                     <div className='div_iframe'>
-                        <iframe src="https://www.youtube.com/embed/ZocGUFfbrYM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/ZocGUFfbrYM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='allowfullscreen2'></iframe>
                     </div>
 
                 </div>

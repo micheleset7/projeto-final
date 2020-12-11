@@ -27,7 +27,7 @@ const Tecnologia = () => {
                 </div>
                 <div className='div_img'>
                     <div className='img'></div>
-                    <iframe className='iframe_tech' src="https://www.youtube.com/embed/00K4pnobsxs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe className='iframe_tech' src="https://www.youtube.com/embed/00K4pnobsxs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='allowfullscreen'></iframe>
                 </div>
 
             </div>
