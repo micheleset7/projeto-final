@@ -12,6 +12,11 @@
     justify-content: center;
     text-align: center;
 }
+.p_dicas1{
+    color:  #4f2158;
+    margin: 20px;
+    margin-bottom: 65px;
+}
 .h4_dicas{
 color:  #4f2158;
 font-size: 20px;
@@ -28,6 +33,8 @@ font-size: 20px;
     align-items: center;
     height: 75vh;
 }
+
 .div_dicas{
 margin: 50px;
+margin-bottom: 30px;
 }

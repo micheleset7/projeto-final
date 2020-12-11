@@ -25,7 +25,7 @@ const Energia = () => {
                     <div className='div_conteudo'>
                         <iframe className='img_energia' src="https://www.youtube.com/embed/JTqz_xzozl0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                        <p className='p_energia'>Energia solar corresponde à energia proveniente da luz emitido pelo Sol. Essa fonte de energia pode ser aproveitada de forma fotovoltaica, gerando energia elétrica. Por ser considerada uma fonte de energia limpa, a energia solar é uma das fontes alternativas mais promissoras para obtenção energética. Sua captação pode ser feita por meio da tecnologia dos painéis fotovoltaicos.Basicamente, ao ser captada, a luz solar é convertida em energia. Nos painéis fotovoltaicos e nas usinas heliotérmicas, a luz solar é convertida em energia elétrica e térmica. Já no aquecimento solar, a luz solar é convertida em energia térmica.</p>
+                        <p className='p_energia'>Energia solar corresponde à energia proveniente da luz emitido pelo Sol. Essa fonte de energia pode ser aproveitada de forma fotovoltaica, gerando energia elétrica. Por ser considerada uma fonte de energia limpa, a energia solar é uma das fontes alternativas mais promissoras para obtenção energética. Sua captação pode ser feita por meio da tecnologia dos painéis fotovoltaicos. Basicamente, ao ser captada, a luz solar é convertida em energia. Nos painéis fotovoltaicos, a luz solar é convertida em energia elétrica.</p>
                     </div>
                 </div>
                 <div className='tipo_energia'>
@@ -40,7 +40,7 @@ const Energia = () => {
                     <div className='div_conteudo'>
                         <iframe className='img_energia' src="https://www.youtube.com/embed/6Fc3V0-ZA7k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                        <p className='p_energia'>A energia eólica é a transformação da energia do vento em energia útil, é uma forma de obter energia renovável, limpa, que não produz poluentes. A forma de produção é atraves da energia do vento (energia cinética) é posteriomente transformada em energia elétrica por um equipamento chamado turbina eólica (ou aerogerador), os quais incluem hélices que se movimentam com a velocidade do vento. A energia eólica é renovável, estando permanentemente disponível em qualquer região no Mundo</p>
+                        <p className='p_energia'>A energia eólica é a transformação da energia do vento em energia útil, é uma forma de obter energia renovável, limpa, que não produz poluentes. A forma de produção é através da energia do vento (energia cinética) é posteriomente transformada em energia elétrica por um equipamento chamado turbina eólica (ou aerogerador), os quais incluem hélices que se movimentam com a velocidade do vento. A energia eólica é renovável, estando permanentemente disponível em qualquer região no Mundo</p>
                     </div>
                 </div>
                 <div className='tipo_energia'>
@@ -54,7 +54,7 @@ const Energia = () => {
                     <h3 className='h3_energia'>Maremotriz</h3>
                     <div className='div_conteudo'>
                         <iframe className='img_energia' src="https://www.youtube.com/embed/7qKHXt-fX5o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <p className='p_energia'>É obtida por meio do aproveitamento da energia do desnível das marés. Para que essa energia seja revertida em eletricidade é necessária a construção de barragens, eclusas (permitindo a entrada e saída de água) e unidades geradoras de energia.O sistema utilizado é semelhante ao de uma usina hidrelétrica. As barragens são construídas próximas ao mar, e os diques são responsáveis pela captação de água durante a alta da maré. A água é armazenada e, em seguida, é liberada durante a baixa da maré, passando por uma turbina que gera energia elétrica.</p>
+                        <p className='p_energia'>É obtida por meio do aproveitamento da energia do desnível das marés. Para que essa energia seja revertida em eletricidade é necessária a construção de barragens, eclusas (permitindo a entrada e saída de água) e unidades geradoras de energia. O sistema utilizado é semelhante ao de uma usina hidrelétrica. As barragens são construídas próximas ao mar, e os diques são responsáveis pela captação de água durante a alta da maré. A água é armazenada e, em seguida, é liberada durante a baixa da maré, passando por uma turbina que gera energia elétrica.</p>
                     </div>
                 </div>
 
