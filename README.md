@@ -4,7 +4,6 @@ O Informe sustentável, foi criado como meu projeto livre para apresentação fi
 O projeto foi desenvolvido em React, contendo uma home e mais três páginas. 
 
 
-Me acompanhe no [Linkedin](https://www.linkedin.com/in/michele-coelho-5017aa79/).
-Me acompanhe no [Instagram](https://www.instagram.com/michellecoelho7/).
+Me acompanhe no [Linkedin](https://www.linkedin.com/in/michele-coelho-5017aa79/) e [Instagram](https://www.instagram.com/michellecoelho7/).
 
 
