@@ -4,15 +4,17 @@ import '../Styles/Pages/tecnologia.css'
 
 const Tecnologia = () => {
     return (
-        <div>
+        <div className="div_inicio">
             <Menu />
 
-            <div className='div_tech'>
-                <h1 className='h1_tech'>TI Sustentável</h1>
-            </div>
-            <div className='div_banner_tech'>
+            <header className='cabecalho'>
 
-                <div className='conteudo_tech'>
+                <h1 className='h1_cabecalho'>TI Sustentável</h1>
+            </header>
+            <main className='conteudo'>
+
+                <section className='conteudo_tech'>
+
                     <h2 className='h2_tech'>A Sustentabilidade e a Tecnologia</h2>
                     <p className='p_tech'>Bem, a tecnologia sempre teve um papel dúbio, quando relacionada a sustentabilidade.
                     Isso porque, ao mesmo tempo em que seu avanço moderniza e melhora a qualidade de vida da sociedade, ela também contribui de maneira significativa com os problemas ambientais.
@@ -24,13 +26,15 @@ const Tecnologia = () => {
                     <p className='p_tech'>Mas o que é a TI verde?
                     É o conjunto de práticas para tornar mais sustentável e menos prejudicial o uso de tecnologia, desta forma, ela propõe modos de compatibilizar o uso de recursos naturais de forma adequada às políticas sustentáveis existentes dentro das organizações. Como exemplos práticos de sua aplicação temos o uso de recursos tecnológicos que consumam menos energia, o uso de matéria prima e substâncias menos tóxicas em seus processos produtivos e o descarte responsável de seus produtos através da reciclagem e da reutilização de materiais. A TI Verde engloba, entre outros, o cumprimento da legislação ambiental e os diagnósticos dos aspectos e impactos ambientais de atividades relacionadas à área da Tecnologia da Informação, seguindo e desenvolvendo procedimentos e planos de ação com objetivos de eliminação ou diminuição da agressão ambiental.</p>
                     <p className='p_tech'></p>
-                </div>
-                <div className='div_img'>
-                    <div className='img'></div>
-                    <iframe className='iframe_tech' src="https://www.youtube.com/embed/00K4pnobsxs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='allowfullscreen'></iframe>
-                </div>
 
-            </div>
+                </section>
+               
+                    <div className='img'></div>
+                    <div className='iframe_tech'>
+                    <iframe  width="560" height="315" src="https://www.youtube.com/embed/00K4pnobsxs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title='allowfullscreen'></iframe>
+                    </div>
+
+            </main>
             <Footer />
         </div>
     )

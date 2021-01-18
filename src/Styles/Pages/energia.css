@@ -1,57 +1,107 @@
-/* .div_principal{
-
-} */
+.div_principal{
+    width: 100%;
+}
+.titulo-energia{
+    background: url(../../Img/energia-eletrica-1-1-1-1280x640.png) no-repeat;
+     display: flex;   
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    height: 75vh;
+    color: #fff;   
+    margin-bottom: 3rem;
+}
 .h1_energia{
     color: #fff; 
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 65px;
+    font-size: 6.5rem;
 }
-.titulo-energia{
-    background: url('https://www.fusesc.com.br/wp-content/uploads/2017/11/como-economizar-energia-eletrica-1-1-1-1280x640.png') no-repeat 100% center;
-    display: flex;   
-    background-size: 1263px;
-    width: 100%;
-    align-items: center;
-    height: 75vh;
-}
+
 .div_tipos{
-margin: 60px;
-margin-top: 90;
+margin-top: 5rem;
+width: 100%;
+padding:  3rem;
 }
-.div_h2{
-    margin-top: 120px;
-    margin-bottom: 120px;
+.h2{
+    margin-bottom: 12rem;
     color: #4f2158;
-    font-size: 40px;
+    font-size: 4rem;
     text-align: center;
 }
-.tipo_energia{
-    border: 1px solid #b8b1b1;
-    background: #cbf8d2;
-    border-radius: 7px;
-    margin-top: 10px;
-}
-.h3_energia{
-margin: 30px;
-color: #4f2158;
-font-size: 28px;
-text-align: center;
-}
-.img_energia{
-    width: 500px;
-    height: 250px;
-    border: 5px solid #19829c;   
-    margin: 40px;
-    border-radius: 7px;
+.paragrafo{
+    color: #4f2158;
+    text-align: justify;
+    padding: 2rem 4rem ;
 }
 .p_energia{
-margin: 40px;
-color: #4f2158;
-text-align: justify;
+    padding: 0 7rem ;
+    color: #4f2158;
+    text-align: justify;
+    width: 70%;
+    }
+.div{
+    width: 100%;
+}    
+.li_energia{
+   display: block;
+    border-radius: 7px;
+    margin: 2rem;
+    margin-bottom: 7rem;
+    width: 100%;
 }
+.h3_energia{
+    margin: 3rem;
+    color: #4f2158;
+    font-size: 2.8rem;
+    text-align: center;
+    }
+.conteudo_energia{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+}
+
 .div_conteudo{
-display: flex;
-margin: 15px;
+    display: flex;
+    width: 30%;
+    height: auto;
+    }
+.video{
+    width: 100%;
+    height: 250px;
+    border-radius: 7px;
+}
+
+@media screen and (max-width:400px){
+    .titulo-energia{
+        width: 100%;
+        height: 270px;
+    }
+    .h1_energia{
+        align-content: flex-end;
+        margin-bottom: -12rem;
+        font-size: 4.5rem;
+    }
+    .conteudo_energia{
+        flex-wrap: wrap;
+    }
+    .paragrafo{
+        padding: 1rem  ;
+    }
+    .p_energia{
+        padding: 1rem;
+        width: 100%;
+        padding-right: 2rem;
+        }
+    .div_conteudo{
+            display: flex;
+            margin-top: 1.4rem;
+            width: 90%;
+    }
+    .h2{
+        margin-bottom: 5rem;
+    }
 }

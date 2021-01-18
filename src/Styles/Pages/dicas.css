@@ -2,39 +2,50 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 65px;
+    font-size: 6.5rem;
 }
 .h2_dicas{
     border: none;
-    margin: 70px;
+    margin: 7rem;
     color: #4f2158;
-    font-size: 40px;
+    font-size: 4rem;
     justify-content: center;
     text-align: center;
 }
-.p_dicas1{
+.p_dicas{
     color:  #4f2158;
-    margin: 20px;
-    margin-bottom: 65px;
+    margin: 2rem;
+    margin-bottom: 6.5rem;
+    text-align: justify;
 }
 .h4_dicas{
 color:  #4f2158;
-font-size: 20px;
-}
-.p_dicas{
- color:  #4f2158;
- margin: 20px;
+font-size: 2rem;
 }
 .titulo{
     background: url('https://ciclovivo.com.br/wp-content/uploads/2020/05/earth-2581631_1280.jpg') no-repeat 100% center;
     display: flex;   
-    background-size: 1263px;
+    background-size: cover;
     width: 100%;
     align-items: center;
     height: 75vh;
 }
 
 .div_dicas{
-margin: 50px;
-margin-bottom: 30px;
+margin: 5rem;
+margin-bottom: 3rem;
+}
+@media screen and (max-width:400px){
+    .titulo{
+    width: 100%;
+    height: 250px;
+}
+.p_dicas{
+    margin: 0;
+    padding: 2rem;
+}
+.div_dicas{
+    margin: 0;
+    padding: 1rem;
+}
 }
